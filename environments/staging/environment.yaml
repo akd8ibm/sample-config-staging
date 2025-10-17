@@ -67,8 +67,8 @@ app:
 
   services:
       - amazonCloudWatch:
-         logGroup: EASeJ-sample-deployment
-         arn: arn:aws:iam::592157396942:role/IBM_EASeJ_Service_20251016-0727-5805-605f-fc57c39e2e9a
+        logGroup: EASeJ-sample-deployment
+        arn: arn:aws:iam::592157396942:role/IBM_EASeJ_Service_20251016-0727-5805-605f-fc57c39e2e9a
   # Set the Java runtime version for the application. Set to 8 for IBM Java 8,
   # 17 for IBM Semeru 17, or 21 for IBM Semeru 21. If not set, the service
   # tries to automatically detect the Java version for the application. If the
